@@ -25,7 +25,7 @@ public class LoginTests {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
-    @Test
+    @Test{loginTest1}
     public void loginTest1() {
         driver.get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
         driver.findElement(By.id("ctl00_MainContent_username")).sendKeys("Tester");
