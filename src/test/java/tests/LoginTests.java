@@ -15,7 +15,8 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 public class LoginTests {
-
+//login tests are mainta
+//
     WebDriver driver;
 
     @BeforeMethod
